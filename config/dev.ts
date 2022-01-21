@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   env: {
     NODE_ENV: '"development"'
   },
@@ -7,3 +7,5 @@ module.exports = {
   mini: {},
   h5: {}
 }
+
+module.exports = config

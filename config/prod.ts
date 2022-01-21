@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   env: {
     NODE_ENV: '"production"'
   },
@@ -16,3 +16,6 @@ module.exports = {
      */
   }
 }
+
+
+module.exports = config
